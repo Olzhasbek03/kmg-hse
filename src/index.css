@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kmg-dark: #0b2f6b;
+  --kmg-blue: #1559a8;
+  --kmg-mid: #2f73c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #eef3f9;
+  color: #1f2a44;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(21, 89, 168, 0.18);
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl shadow-card border border-slate-100 transition-all duration-300;
+  }
+  .card-hover {
+    @apply hover:-translate-y-1 hover:shadow-lift hover:border-kmg-mid/30;
+  }
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-xl bg-kmg-blue px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-kmg-dark hover:shadow-soft active:scale-95 disabled:opacity-50 disabled:active:scale-100;
+  }
+  .btn-green {
+    @apply inline-flex items-center gap-2 rounded-xl bg-kmg-green px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:brightness-110 hover:shadow-soft active:scale-95;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-xl bg-slate-100 px-4 py-2.5 text-sm font-semibold text-slate-600 transition-all duration-200 hover:bg-slate-200 active:scale-95;
+  }
+  .field {
+    @apply w-full rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-700 outline-none transition-all duration-200 hover:border-slate-300 focus:border-kmg-mid focus:ring-4 focus:ring-kmg-mid/15;
+  }
+  .label {
+    @apply mb-1.5 block text-[11px] font-semibold uppercase tracking-wide text-slate-400;
+  }
+  .glass {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .gradient-text {
+    @apply bg-gradient-to-r from-kmg-mid to-kmg-blue bg-clip-text text-transparent;
+  }
+}
+
+/* Animated app background */
+.bg-hero {
+  background:
+    radial-gradient(820px 380px at 82% -8%, rgba(47, 115, 196, 0.16), transparent 60%),
+    radial-gradient(620px 320px at 0% 100%, rgba(21, 89, 168, 0.1), transparent 60%),
+    linear-gradient(180deg, #eef3f9 0%, #e4edf7 100%);
+}
+
+/* Animated brand gradient for header / login */
+.bg-brand-anim {
+  background: linear-gradient(120deg, #0b2f6b, #1559a8, #2f73c4, #1559a8, #0b2f6b);
+  background-size: 280% 280%;
+  animation: gradientShift 16s ease infinite;
+}
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Stagger entrance for grids/lists */
+.stagger > * {
+  opacity: 0;
+  animation: staggerFade 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes staggerFade {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.stagger > *:nth-child(1) { animation-delay: 0.03s; }
+.stagger > *:nth-child(2) { animation-delay: 0.08s; }
+.stagger > *:nth-child(3) { animation-delay: 0.13s; }
+.stagger > *:nth-child(4) { animation-delay: 0.18s; }
+.stagger > *:nth-child(5) { animation-delay: 0.23s; }
+.stagger > *:nth-child(6) { animation-delay: 0.28s; }
+.stagger > *:nth-child(7) { animation-delay: 0.33s; }
+.stagger > *:nth-child(8) { animation-delay: 0.38s; }
+.stagger > *:nth-child(9) { animation-delay: 0.43s; }
+.stagger > *:nth-child(10) { animation-delay: 0.48s; }
+.stagger > *:nth-child(11) { animation-delay: 0.53s; }
+.stagger > *:nth-child(12) { animation-delay: 0.58s; }
+
+/* Shimmer sweep used on hover accents */
+.shimmer-sweep {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-sweep::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.45), transparent);
+}
+.shimmer-sweep:hover::after {
+  animation: shimmer 0.9s ease;
+}
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c3d2e6;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a9bdd8;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
