@@ -513,7 +513,7 @@ const ru: Dict = {
 
   // PTW
   'ptw.title': 'Электронный наряд-допуск',
-  'ptw.subtitle': 'Журнал нарядов-допусков из системы ЭНД — 203 записи, контроль статусов и видов работ',
+  'ptw.subtitle': 'Журнал нарядов-допусков из системы ЭНД — связан с предиктивной аналитикой ИНР',
   'ptw.kpi.total': 'Всего нарядов',
   'ptw.kpi.active': 'Активных нарядов',
   'ptw.kpi.highrisk': 'Высокий риск',
@@ -538,6 +538,9 @@ const ru: Dict = {
   'ptw.searchHint': '№ наряда, ФИО, описание работ…',
   'ptw.unit': 'записей',
   'ptw.page': 'Стр. {page} / {pages}',
+  'ptw.predictive': 'Предиктивная аналитика по журналу',
+  'ptw.predictiveNote': 'Прогнозы ИНР, усиленные данными ЭНД: сопоставление видов работ нарядов с рисками Q2–Q3 2026',
+  'ptw.viewForecast': 'Открыть прогноз',
 
   // Transport
   'transport.title': 'Транспортная безопасность',
@@ -577,7 +580,7 @@ const ru: Dict = {
 
   // Forecast
   'forecast.title': 'Предиктивная аналитика',
-  'forecast.subtitle': 'AI-прогноз рисков НС по ДЗО на II–III кварталы 2026 (модель ИНР)',
+  'forecast.subtitle': 'AI-прогноз рисков НС на II–III кв. 2026 с учётом журнала ЭНД (203 наряда-допуска)',
   'forecast.col.dzo': 'ДЗО',
   'forecast.col.quarter': 'Квартал',
   'forecast.col.risk': 'Вид риска / тип НС',
@@ -590,7 +593,23 @@ const ru: Dict = {
   'forecast.prob.medium': 'СРЕДНЯЯ',
   'forecast.prob.moderate': 'УМЕРЕННАЯ',
   'forecast.redzone': 'Красная зона II–III кв.: ОМГ (оба квартала), ЭМГ, ОМС, OSC, КБМ',
-  'forecast.model': 'Модель ИНР (Индекс накопленного риска) построена на 39 521 карточке Қорғау и журнале НС 2020–2026',
+  'forecast.model': 'Модель ИНР (Индекс накопленного риска) построена на 39 521 карточке Қорғау, журнале НС 2020–2026 и данных ЭНД',
+  'forecast.modelPtw': 'Журнал электронных нарядов-допусков используется как оперативный слой: объём работ, отклонения и высокий риск усиливают прогноз.',
+  'forecast.kpi.high': 'Высокая вероятность',
+  'forecast.kpi.ptwTotal': 'Нарядов в ЭНД',
+  'forecast.kpi.ptwHint': 'журнал 2026',
+  'forecast.kpi.ptwLinked': 'Нарядов по прогнозам',
+  'forecast.kpi.ptwLinkedHint': 'сопоставлено с рисками',
+  'forecast.kpi.ptwCritical': 'Критичных сигналов ЭНД',
+  'forecast.ptwChart': 'ЭНД и прогноз: виды работ',
+  'forecast.chart.permits': 'Нарядов в журнале',
+  'forecast.chart.hits': 'Связей с прогнозом',
+  'forecast.ptwSignal': 'Сигнал ЭНД',
+  'forecast.ptw.permits': 'нарядов',
+  'forecast.ptw.highRisk': 'высокий риск',
+  'forecast.ptw.critical': 'Критический',
+  'forecast.ptw.elevated': 'Повышенный',
+  'forecast.ptw.normal': 'Норма',
 };
 
 const kz: Dict = {
@@ -1086,7 +1105,7 @@ const kz: Dict = {
   'contractors.deaths': 'Қаза тапты',
 
   'ptw.title': 'Электронды наряд-рұқсат',
-  'ptw.subtitle': 'ЭНД жүйесінің наряд-рұқсат журналы — 203 жазба, мәртебе мен жұмыс түрлерін бақылау',
+  'ptw.subtitle': 'ЭНД жүйесінің наряд-рұқсат журналы — ЖНИ болжамды талдаумен байланысты',
   'ptw.kpi.total': 'Барлық нарядтар',
   'ptw.kpi.active': 'Белсенді нарядтар',
   'ptw.kpi.highrisk': 'Жоғары қауіп',
@@ -1111,6 +1130,9 @@ const kz: Dict = {
   'ptw.searchHint': 'Наряд №, аты-жөні, сипаттama…',
   'ptw.unit': 'жазба',
   'ptw.page': 'Бет {page} / {pages}',
+  'ptw.predictive': 'Журнал бойынша болжамды талдау',
+  'ptw.predictiveNote': 'ЭНД деректерімен күшейтілген ЖНИ болжамдары: наряд жұмыс түрлерін 2026 Q2–Q3 қауіптерімен салыстыру',
+  'ptw.viewForecast': 'Болжамды ашу',
 
   'transport.title': 'Көлік қауіпсіздігі',
   'transport.subtitle': 'ҚМГ тобы бойынша жол қауіпсіздігінің кросс-талдауы (ИСУТО)',
@@ -1147,7 +1169,7 @@ const kz: Dict = {
   'forms.col.status': 'Мәртебесі',
 
   'forecast.title': 'Болжамды талдау',
-  'forecast.subtitle': '2026 жылдың II–III тоқсандарына ЕТҰ бойынша ЖО қаупінің AI-болжамы (ЖНИ моделі)',
+  'forecast.subtitle': '2026 II–III тоқс. ЖО қаупінің AI-болжамы ЭНД журналымен (203 наряд-рұқсат)',
   'forecast.col.dzo': 'ЕТҰ',
   'forecast.col.quarter': 'Тоқсан',
   'forecast.col.risk': 'Қауіп түрі / ЖО типі',
@@ -1160,7 +1182,23 @@ const kz: Dict = {
   'forecast.prob.medium': 'ОРТАША',
   'forecast.prob.moderate': 'БІРШАМА',
   'forecast.redzone': 'II–III тоқсан қызыл аймағы: ОМГ (екі тоқсан), ЭМГ, ОМС, OSC, КБМ',
-  'forecast.model': 'ЖНИ (Жинақталған тәуекел индексі) моделі 39 521 Қорғау картасы мен 2020–2026 ЖО журналына негізделген',
+  'forecast.model': 'ЖНИ моделі 39 521 Қорғау картасы, 2020–2026 ЖО журналы және ЭНД деректеріне негізделген',
+  'forecast.modelPtw': 'Электронды наряд-рұқсат журналы оперативті қабат ретінде: жұмыс көлемі, бас тарту және жоғары қауіп болжамды күшейтеді.',
+  'forecast.kpi.high': 'Жоғары ықтималдық',
+  'forecast.kpi.ptwTotal': 'ЭНД нарядтары',
+  'forecast.kpi.ptwHint': '2026 журналы',
+  'forecast.kpi.ptwLinked': 'Болжамға байланысты',
+  'forecast.kpi.ptwLinkedHint': 'qaupтермен сәйкестенді',
+  'forecast.kpi.ptwCritical': 'ЭНД сыни сигналдары',
+  'forecast.ptwChart': 'ЭНД және болжам: жұмыс түрлері',
+  'forecast.chart.permits': 'Журналдағы нарядтар',
+  'forecast.chart.hits': 'Болжаммен байланыс',
+  'forecast.ptwSignal': 'ЭНД сигналы',
+  'forecast.ptw.permits': 'наряд',
+  'forecast.ptw.highRisk': 'жоғары қауіп',
+  'forecast.ptw.critical': 'Сыни',
+  'forecast.ptw.elevated': 'Жоғарылаған',
+  'forecast.ptw.normal': 'Қалыпты',
 };
 
 const en: Dict = {
@@ -1656,7 +1694,7 @@ const en: Dict = {
   'contractors.deaths': 'Fatalities',
 
   'ptw.title': 'e-Permit to Work',
-  'ptw.subtitle': 'Permit journal from the END system — 203 records with status and work-type control',
+  'ptw.subtitle': 'END permit journal — linked to ARI predictive analytics',
   'ptw.kpi.total': 'Total permits',
   'ptw.kpi.active': 'Active permits',
   'ptw.kpi.highrisk': 'High risk',
@@ -1681,6 +1719,9 @@ const en: Dict = {
   'ptw.searchHint': 'Permit №, name, work description…',
   'ptw.unit': 'records',
   'ptw.page': 'Page {page} / {pages}',
+  'ptw.predictive': 'Predictive analytics from journal',
+  'ptw.predictiveNote': 'ARI forecasts enriched with END data: permit work types matched to Q2–Q3 2026 risk scenarios',
+  'ptw.viewForecast': 'Open forecast',
 
   'transport.title': 'Road Safety',
   'transport.subtitle': 'Cross-analytics of road safety (ISUTO) across the KMG group',
@@ -1717,7 +1758,7 @@ const en: Dict = {
   'forms.col.status': 'Status',
 
   'forecast.title': 'Predictive Analytics',
-  'forecast.subtitle': 'AI forecast of accident risk by subsidiary for Q2–Q3 2026 (ARI model)',
+  'forecast.subtitle': 'AI accident-risk forecast for Q2–Q3 2026 enriched with the END permit journal (203 permits)',
   'forecast.col.dzo': 'Subsidiary',
   'forecast.col.quarter': 'Quarter',
   'forecast.col.risk': 'Risk type / accident type',
@@ -1730,7 +1771,23 @@ const en: Dict = {
   'forecast.prob.medium': 'MEDIUM',
   'forecast.prob.moderate': 'MODERATE',
   'forecast.redzone': 'Red zone Q2–Q3: OMG (both quarters), EMG, OMS, OSC, KBM',
-  'forecast.model': 'The ARI (Accumulated Risk Index) model is built on 39,521 Korgau cards and the 2020–2026 accident journal',
+  'forecast.model': 'The ARI model is built on 39,521 Korgau cards, the 2020–2026 accident journal and END permit data',
+  'forecast.modelPtw': 'The electronic permit journal acts as an operational layer: work volume, rejections and high-risk permits strengthen the forecast.',
+  'forecast.kpi.high': 'High probability',
+  'forecast.kpi.ptwTotal': 'END permits',
+  'forecast.kpi.ptwHint': '2026 journal',
+  'forecast.kpi.ptwLinked': 'Permits linked to forecast',
+  'forecast.kpi.ptwLinkedHint': 'matched to risks',
+  'forecast.kpi.ptwCritical': 'Critical END signals',
+  'forecast.ptwChart': 'END vs forecast: work types',
+  'forecast.chart.permits': 'Permits in journal',
+  'forecast.chart.hits': 'Forecast links',
+  'forecast.ptwSignal': 'END signal',
+  'forecast.ptw.permits': 'permits',
+  'forecast.ptw.highRisk': 'high risk',
+  'forecast.ptw.critical': 'Critical',
+  'forecast.ptw.elevated': 'Elevated',
+  'forecast.ptw.normal': 'Normal',
 };
 
 export const translations: Record<Lang, Dict> = { kz, ru, en };

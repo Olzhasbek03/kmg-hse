@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useI18n } from '../i18n';
 import { PageHeader, KpiCard, Card, Badge } from '../components/ui';
 import { Donut, Bars } from '../components/charts';
-import { IconDoc, IconFilter } from '../components/icons';
+import { IconDoc, IconFilter, IconSpark, IconArrow } from '../components/icons';
 import {
   permits,
   PTW_CATEGORIES,
@@ -12,6 +13,7 @@ import {
   type PtwStatus,
   type PtwRisk,
 } from '../data/ptw';
+import { forecastForPtw, signalTone } from '../data/ptwForecast';
 
 const PAGE = 25;
 
@@ -47,6 +49,14 @@ export function Ptw() {
   })).filter((d) => d.value > 0);
 
   const issuerBars = topIssuers(8);
+  const predictions = useMemo(() => forecastForPtw(5), []);
+
+  const probLabel = (p: string) => {
+    if (p.includes('ВЫСОКАЯ')) return t('forecast.prob.high');
+    if (p.includes('СРЕДНЯЯ')) return t('forecast.prob.medium');
+    return t('forecast.prob.moderate');
+  };
+  const clean = (s: string) => s.replace(/[🔴🟠🟡🟢▌]/g, '').trim();
 
   const riskTone = (r: PtwRisk) => (r === 'high' ? 'red' : r === 'medium' ? 'amber' : 'green');
   const riskLabel = (r: PtwRisk) => t(r === 'high' ? 'forecast.prob.high' : r === 'medium' ? 'forecast.prob.medium' : 'forecast.prob.moderate');
@@ -62,7 +72,16 @@ export function Ptw() {
 
   return (
     <div>
-      <PageHeader title={t('ptw.title')} subtitle={t('ptw.subtitle')} breadcrumb={t('common.home')} />
+      <PageHeader
+        title={t('ptw.title')}
+        subtitle={t('ptw.subtitle')}
+        breadcrumb={t('common.home')}
+        actions={
+          <Link to="/forecast" className="btn-primary">
+            <IconSpark width={16} height={16} />{t('nav.forecast')}
+          </Link>
+        }
+      />
 
       <div className="stagger grid grid-cols-2 gap-4 lg:grid-cols-4">
         <KpiCard label={t('ptw.kpi.total')} value={permits.length} accent="blue" icon={IconDoc} />
@@ -79,6 +98,30 @@ export function Ptw() {
           <Bars data={issuerBars} horizontal height={280} color="#1559a8" />
         </Card>
       </div>
+
+      <Card title={t('ptw.predictive')} className="mt-6">
+        <p className="mb-4 text-sm text-slate-500">{t('ptw.predictiveNote')}</p>
+        <div className="space-y-3">
+          {predictions.map((f, i) => (
+            <div key={i} className="rounded-xl border border-violet-100 bg-gradient-to-r from-violet-50/80 to-transparent p-4">
+              <div className="flex flex-wrap items-center gap-2">
+                <Badge tone="blue">{f.dzo}</Badge>
+                <Badge tone="slate">{f.quarter}</Badge>
+                <Badge tone={signalTone(f.ptw.level)}>{t(`forecast.ptw.${f.ptw.level}`)}</Badge>
+                <span className="text-sm font-semibold text-slate-700">{clean(f.risk)}</span>
+              </div>
+              <p className="mt-2 text-sm text-slate-600">{f.ptwAction[lang]}</p>
+              <div className="mt-2 flex flex-wrap items-center gap-3 text-xs text-slate-400">
+                <span>{f.ptw.total} {t('forecast.ptw.permits')}</span>
+                <span>{probLabel(f.probability)}</span>
+                <Link to="/forecast" className="inline-flex items-center gap-1 font-semibold text-kmg-blue hover:underline">
+                  {t('ptw.viewForecast')} <IconArrow width={12} height={12} />
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Card>
 
       <Card title={t('ptw.journal')} className="mt-6">
         <div className="mb-4 flex flex-wrap items-end gap-3">
