@@ -177,4 +177,70 @@ with open(f'{OUT}/forecast.json', 'w', encoding='utf-8') as f:
     json.dump(forecast, f, ensure_ascii=False, indent=0)
 print('forecast rows:', len(forecast))
 
+# ---------- Electronic permit journal (PTW / END) ----------
+def ptw_work_category(text):
+    if not text or text == '—':
+        return 'other'
+    t = str(text).lower()
+    if 'огнев' in t or 'отты' in t or 'сварк' in t or 'дәнекер' in t:
+        return 'hot_work'
+    if 'замкнут' in t or 'ограничен' in t or 'тұйық' in t:
+        return 'confined'
+    if 'высот' in t or 'биікт' in t:
+        return 'height'
+    if 'землян' in t or 'жер ' in t:
+        return 'excavation'
+    if 'обустрой' in t or 'жайластыру' in t:
+        return 'well_completion'
+    if 'парафин' in t or 'продув' in t:
+        return 'paraffin'
+    if 'качал' in t or 'станок' in t or 'тербел' in t:
+        return 'pumping_unit'
+    if 'электр' in t or 'loto' in t:
+        return 'electrical'
+    return 'other'
+
+def ptw_risk(cat):
+    if cat in ('hot_work', 'confined', 'height'):
+        return 'high'
+    if cat in ('excavation', 'well_completion', 'paraffin', 'pumping_unit'):
+        return 'medium'
+    return 'low'
+
+def ptw_status(s):
+    s = str(s).strip().lower()
+    if 'закрыт' in s:
+        return 'closed'
+    if 'отклон' in s:
+        return 'rejected'
+    if 'актив' in s or 'действ' in s or 'открыт' in s:
+        return 'active'
+    return 'pending'
+
+ptw_path = f'{BASE}/journal_all_all_all.xlsx'
+if os.path.exists(ptw_path):
+    wb4 = openpyxl.load_workbook(ptw_path, read_only=True, data_only=True)
+    ws = wb4['Журнал нарядов-допусков']
+    ptw_rows = list(ws.iter_rows(values_only=True))[1:]
+    permits = []
+    for r in ptw_rows:
+        seq, start, end, num, issuer, work, status = r
+        if not num:
+            continue
+        cat = ptw_work_category(work)
+        permits.append({
+            'seq': int(seq) if seq else len(permits) + 1,
+            'num': str(num).strip(),
+            'start': None if not start or str(start).strip() == '—' else str(start).strip(),
+            'end': None if not end or str(end).strip() == '—' else str(end).strip(),
+            'issuer': str(issuer).strip() if issuer else '',
+            'work': str(work).strip() if work and str(work) != '—' else '',
+            'status': ptw_status(status),
+            'category': cat,
+            'risk': ptw_risk(cat),
+        })
+    with open(f'{OUT}/ptw.json', 'w', encoding='utf-8') as f:
+        json.dump(permits, f, ensure_ascii=False, indent=0)
+    print('ptw permits:', len(permits))
+
 print('DONE')
