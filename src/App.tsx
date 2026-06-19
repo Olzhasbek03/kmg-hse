@@ -12,6 +12,7 @@ import { Incidents } from './pages/Incidents';
 import { IncidentDetail } from './pages/IncidentDetail';
 import { Korgau } from './pages/Korgau';
 import { Audit } from './pages/Audit';
+import { AuditDetail } from './pages/AuditDetail';
 import { Measures } from './pages/Measures';
 import { Policies } from './pages/Policies';
 import { Opo } from './pages/Opo';
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="/contractors" element={<Contractors />} />
         <Route path="/measures" element={<Measures />} />
         <Route path="/audit" element={<Audit />} />
+        <Route path="/audit/:id" element={<AuditDetail />} />
         <Route path="/ptw" element={<Ptw />} />
         <Route path="/transport" element={<Transport />} />
         <Route path="/forms" element={<Forms />} />

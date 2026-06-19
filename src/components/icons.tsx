@@ -220,6 +220,12 @@ export const IconId = (p: P) => (
     <path d="M14.5 9.5H19M14.5 12.5H19M14.5 15.5h3" />
   </svg>
 );
+export const IconLeaf = (p: P) => (
+  <svg {...base(p)}>
+    <path d="M4 20c0-8 6-14 16-14 0 10-6 14-14 14H4z" />
+    <path d="M4 20c2-5 5-8 10-10" />
+  </svg>
+);
 export const IconBuilding = (p: P) => (
   <svg {...base(p)}>
     <path d="M4 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16" />

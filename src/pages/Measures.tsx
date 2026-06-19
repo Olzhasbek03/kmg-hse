@@ -1,11 +1,13 @@
+import { Link } from 'react-router-dom';
 import { useI18n, type Lang } from '../i18n';
 import { PageHeader, KpiCard, Card, Badge } from '../components/ui';
 import { IconClipboard, IconClock } from '../components/icons';
 import { dzoLabel } from '../labels';
+import { AUDIT_MEASURES } from '../data/audit';
 
-interface Row { name: Record<Lang, string>; source: string; dzo: string; deadline: string; resp: string; progress: number; status: 'done' | 'inwork' | 'overdue'; }
+interface Row { name: Record<Lang, string>; source: string; dzo: string; deadline: string; resp: string; progress: number; status: 'done' | 'inwork' | 'overdue'; auditId?: string; }
 
-const ROWS: Row[] = [
+const BASE_ROWS: Row[] = [
   { name: { ru: 'Закрыть 17 Near Miss по технологической безопасности', kz: 'Технологиялық қауіпсіздік бойынша 17 Near Miss жабу', en: 'Close 17 Near Miss on process safety' }, source: 'Қорғау', dzo: 'АО «Озенмунайгаз»', deadline: '2026-04-01', resp: 'Б. Ережепов', progress: 65, status: 'inwork' },
   { name: { ru: 'Ограждение вращающихся частей станков-качалок', kz: 'Шайқауыш станоктардың айналмалы бөліктерін қоршау', en: 'Guard rotating parts of pumping units' }, source: 'Инцидент', dzo: 'АО «Каражанбасмунай»', deadline: '2026-03-15', resp: 'С. Ускенов', progress: 100, status: 'done' },
   { name: { ru: 'GPS-контроль скорости вахтового транспорта', kz: 'Вахталық көліктің жылдамдығын GPS-бақылау', en: 'GPS speed control of shift transport' }, source: 'Транспорт', dzo: 'АО «Эмбамунайгаз»', deadline: '2026-02-20', resp: 'А. Каримов', progress: 40, status: 'overdue' },
@@ -44,10 +46,25 @@ const ESCALATION: Record<Lang, { d: string; a: string }[]> = {
   ],
 };
 
+const AUDIT_ROWS: Row[] = AUDIT_MEASURES.map((m) => ({
+  name: m.name,
+  source: 'Аудит',
+  dzo: m.dzo,
+  deadline: m.deadline,
+  resp: 'ДПБ КМГ',
+  progress: m.progress,
+  status: m.status,
+  auditId: m.auditId,
+}));
+
+const ROWS: Row[] = [...AUDIT_ROWS, ...BASE_ROWS];
+
 export function Measures() {
   const { t, lang } = useI18n();
   const tone = (s: Row['status']) => (s === 'done' ? 'green' : s === 'overdue' ? 'red' : 'amber');
   const statusLabel = (s: Row['status']) => t(s === 'done' ? 'measures.kpi.done' : s === 'overdue' ? 'measures.kpi.overdue' : 'measures.kpi.inwork');
+
+  const pct = (st: Row['status']) => Math.round((ROWS.filter((r) => r.status === st).length / ROWS.length) * 100);
 
   return (
     <div>
@@ -59,10 +76,10 @@ export function Measures() {
       />
 
       <div className="stagger grid grid-cols-2 gap-4 lg:grid-cols-4">
-        <KpiCard label={t('measures.kpi.total')} value={ROWS.length * 47} accent="blue" icon={IconClipboard} />
-        <KpiCard label={t('measures.kpi.done')} value="58%" accent="green" />
-        <KpiCard label={t('measures.kpi.inwork')} value="31%" accent="amber" />
-        <KpiCard label={t('measures.kpi.overdue')} value="11%" accent="red" icon={IconClock} />
+        <KpiCard label={t('measures.kpi.total')} value={ROWS.length} accent="blue" icon={IconClipboard} />
+        <KpiCard label={t('measures.kpi.done')} value={`${pct('done')}%`} accent="green" />
+        <KpiCard label={t('measures.kpi.inwork')} value={`${pct('inwork')}%`} accent="amber" />
+        <KpiCard label={t('measures.kpi.overdue')} value={`${pct('overdue')}%`} accent="red" icon={IconClock} />
       </div>
 
       <div className="mt-6 grid gap-5 lg:grid-cols-3">
@@ -85,7 +102,15 @@ export function Measures() {
                         <div className="font-medium text-slate-700">{r.name[lang]}</div>
                         <div className="text-xs text-slate-400">{dzoLabel(r.dzo, lang)} · {r.resp}</div>
                       </td>
-                      <td className="px-3 py-3"><Badge tone="blue">{r.source}</Badge></td>
+                      <td className="px-3 py-3">
+                        {r.auditId ? (
+                          <Link to={`/audit/${r.auditId}`} className="inline-flex">
+                            <Badge tone="amber">{t('measures.src.audit')}</Badge>
+                          </Link>
+                        ) : (
+                          <Badge tone="blue">{r.source}</Badge>
+                        )}
+                      </td>
                       <td className="px-3 py-3 whitespace-nowrap text-slate-500">{r.deadline}</td>
                       <td className="px-3 py-3">
                         <div className="flex items-center gap-2">
