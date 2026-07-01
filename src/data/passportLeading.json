@@ -1,0 +1,6303 @@
+{
+  "source": "Копия Приложение Анализ по опережающим индикаторам 4 мес 2025-2026г",
+  "compareMonths": 4,
+  "prevYear": 2025,
+  "currYear": 2026,
+  "byShort": {
+    "АПНЗ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 22,
+        "curr": 20,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 9895,
+        "curr": 8133,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 9741,
+        "curr": 7860,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 47,
+        "curr": 10,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 8,
+        "curr": 6,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 19,
+        "curr": 9,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 270,
+        "curr": 281,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 2,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 60,
+        "curr": 65,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 10,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 58,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 1,
+        "curr": 2,
+        "worseUp": false
+      }
+    ],
+    "Кетеринг": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 30,
+        "curr": 22,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 12,
+        "curr": 68,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 7,
+        "curr": 68,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 185,
+        "curr": 246,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ОТК": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 3,
+        "curr": 4,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 40,
+        "curr": 30,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 40,
+        "curr": 30,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 127,
+        "curr": 60,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 2,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "удтв": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 3,
+        "curr": 2,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 63,
+        "curr": 43,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 63,
+        "curr": 43,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "МТК": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 16,
+        "curr": 16,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 229,
+        "curr": 265,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 229,
+        "curr": 292,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 19,
+        "curr": 94,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 43,
+        "curr": 31,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КТМ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 15,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 15,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 50,
+        "curr": 55,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 104,
+        "curr": 62,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "CASPI BITUM": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 13,
+        "curr": 15,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 106,
+        "curr": 169,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 106,
+        "curr": 147,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 22,
+        "curr": 14,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 5,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 4,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 34,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ОМС": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 38,
+        "curr": 48,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 510,
+        "curr": 437,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 430,
+        "curr": 334,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 11,
+        "curr": 10,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КМТФ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 4,
+        "curr": 4,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 10,
+        "curr": 8,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 2,
+        "curr": 2,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 10,
+        "curr": 2,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 2,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 4,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      }
+    ],
+    "Урихтау": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 17,
+        "curr": 16,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 134,
+        "curr": 84,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 75,
+        "curr": 38,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 23,
+        "curr": 6,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 5,
+        "curr": 4,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 9,
+        "curr": 2,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 8,
+        "curr": 3,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "УОГ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 27,
+        "curr": 51,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 258,
+        "curr": 199,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 148,
+        "curr": 132,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ПНХЗ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 2003,
+        "curr": 3823,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 2193,
+        "curr": 4524,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 2155,
+        "curr": 4472,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 272,
+        "curr": 644,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 24,
+        "curr": 4,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 44,
+        "curr": 45,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 61,
+        "curr": 216,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 61,
+        "curr": 103,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 4,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ПКОП": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 18,
+        "curr": 12,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 612,
+        "curr": 195,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 499,
+        "curr": 135,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 198,
+        "curr": 322,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 5,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 31,
+        "curr": 17,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 71,
+        "curr": 38,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 1,
+        "curr": 3,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 48,
+        "curr": 76,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 11,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ОСК": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 6,
+        "curr": 7,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 5661,
+        "curr": 12524,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 5661,
+        "curr": 12518,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 93,
+        "curr": 60,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 3,
+        "curr": 9,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 3,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 2,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 127,
+        "curr": 159,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 2,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 5,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "KPI": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 16,
+        "curr": 33,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 59,
+        "curr": 115,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 59,
+        "curr": 101,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 180,
+        "curr": 117,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 4,
+        "curr": 3,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 4,
+        "curr": 3,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 98,
+        "curr": 102,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КОА": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 56,
+        "curr": 51,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 387,
+        "curr": 292,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 366,
+        "curr": 262,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 42,
+        "curr": 84,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 2,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 12,
+        "curr": 15,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 5,
+        "curr": 7,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 1,
+        "curr": 5,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 34,
+        "curr": 36,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ММГ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 64,
+        "curr": 78,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 757,
+        "curr": 963,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 640,
+        "curr": 706,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 140,
+        "curr": 29,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 2302,
+        "curr": 3641,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КТО": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 146,
+        "curr": 360,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 1311,
+        "curr": 1216,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 774,
+        "curr": 945,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 1782,
+        "curr": 890,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 7,
+        "curr": 17,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 17,
+        "curr": 14,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 15,
+        "curr": 21,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 2,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 359,
+        "curr": 318,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 7,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 511,
+        "curr": 698,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 7,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КМГС": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 5,
+        "curr": 5,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 195,
+        "curr": 173,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 7,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "Дрилинг": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 53,
+        "curr": 62,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 1,
+        "curr": 55,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 0,
+        "curr": 38,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 1559,
+        "curr": 1772,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 55,
+        "curr": 106,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 25,
+        "curr": 358,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 23,
+        "curr": 370,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 296,
+        "curr": 51,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ККС": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 4,
+        "curr": 16,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 70,
+        "curr": 145,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 70,
+        "curr": 145,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "МЭМ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 33,
+        "curr": 33,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 225,
+        "curr": 190,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 367,
+        "curr": 78,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 35,
+        "curr": 23,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КазГПЗ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 41,
+        "curr": 48,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 4281,
+        "curr": 2021,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 1410,
+        "curr": 5901,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 59,
+        "curr": 2,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 19,
+        "curr": 8,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 14,
+        "curr": 11,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 18,
+        "curr": 6,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 94,
+        "curr": 152,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ЭМГ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 15,
+        "curr": 17,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 1323,
+        "curr": 1213,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 566,
+        "curr": 1071,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 2443,
+        "curr": 2317,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 218,
+        "curr": 28,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 394,
+        "curr": 567,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 483,
+        "curr": 348,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 45,
+        "curr": 58,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 823,
+        "curr": 740,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "Барлау": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 0,
+        "curr": 8,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 5,
+        "curr": 9,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 5,
+        "curr": 9,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 1,
+        "curr": 6,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 1,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 1,
+        "curr": 10,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 1,
+        "curr": 2,
+        "worseUp": false
+      }
+    ],
+    "КМГИ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 3,
+        "curr": 5,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 3,
+        "curr": 69,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 1,
+        "curr": 18,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 0,
+        "curr": 7,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 1025,
+        "curr": 2098,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "КГМ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 63,
+        "curr": 52,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 529,
+        "curr": 572,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 487,
+        "curr": 565,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 213,
+        "curr": 74,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 2,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 2,
+        "curr": 1,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 514,
+        "curr": 466,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      }
+    ],
+    "КБМ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 50,
+        "curr": 50,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 0,
+        "curr": 418,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 0,
+        "curr": 315,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 750,
+        "curr": 794,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 44,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 133,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 172,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 159,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 0,
+        "curr": 4379,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 112,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 1,
+        "curr": 1,
+        "worseUp": false
+      }
+    ],
+    "ОМГ": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 13,
+        "curr": 13,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 489,
+        "curr": 494,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 459,
+        "curr": 387,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 1670,
+        "curr": 668,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 89,
+        "curr": 69,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "ОКК": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 3,
+        "curr": 3,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 1,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 36,
+        "curr": 52,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 32,
+        "curr": 17,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 74,
+        "curr": 67,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 21,
+        "curr": 15,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 21,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      }
+    ],
+    "Дунга": [
+      {
+        "id": "audits",
+        "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+        "prev": 13,
+        "curr": 15,
+        "worseUp": false
+      },
+      {
+        "id": "indepAudits",
+        "label": "Количество проведенных аудитов независимыми экспертами",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "findings",
+        "label": "Количество выявленных несоответствий",
+        "prev": 566,
+        "curr": 532,
+        "worseUp": true
+      },
+      {
+        "id": "resolved",
+        "label": "Количество устраненных несоответствий",
+        "prev": 555,
+        "curr": 421,
+        "worseUp": false
+      },
+      {
+        "id": "pab",
+        "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+        "prev": 91,
+        "curr": 77,
+        "worseUp": false
+      },
+      {
+        "id": "nearMiss",
+        "label": "Количество выявленных потенциально-опасных происшествий",
+        "prev": 3,
+        "curr": 0,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeActs",
+        "label": "Количество выявленных опасных действий",
+        "prev": 77,
+        "curr": 125,
+        "worseUp": true
+      },
+      {
+        "id": "unsafeCond",
+        "label": "Количество выявленных  опасных условий",
+        "prev": 86,
+        "curr": 122,
+        "worseUp": true
+      },
+      {
+        "id": "stops",
+        "label": "Количество остановов работы (Временное)",
+        "prev": 16,
+        "curr": 16,
+        "worseUp": true
+      },
+      {
+        "id": "medical",
+        "label": "Количество обращений в медицинские пункты (все виды)",
+        "prev": 275,
+        "curr": 263,
+        "worseUp": true
+      },
+      {
+        "id": "nebosh",
+        "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "iosh",
+        "label": "Количество работников, прошедших обучение по курсу IOSH",
+        "prev": 0,
+        "curr": 0,
+        "worseUp": false
+      },
+      {
+        "id": "defensive",
+        "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+        "prev": 129,
+        "curr": 161,
+        "worseUp": false
+      },
+      {
+        "id": "forums",
+        "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+        "prev": 1,
+        "curr": 1,
+        "worseUp": false
+      }
+    ]
+  },
+  "byId": {
+    "anpz": {
+      "short": "АПНЗ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 22,
+          "curr": 20,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 9895,
+          "curr": 8133,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 9741,
+          "curr": 7860,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 47,
+          "curr": 10,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 8,
+          "curr": 6,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 19,
+          "curr": 9,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 270,
+          "curr": 281,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 2,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 60,
+          "curr": 65,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 10,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 58,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 1,
+          "curr": 2,
+          "worseUp": false
+        }
+      ]
+    },
+    "catering": {
+      "short": "Кетеринг",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 30,
+          "curr": 22,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 12,
+          "curr": 68,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 7,
+          "curr": 68,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 185,
+          "curr": 246,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "otc": {
+      "short": "ОТК",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 3,
+          "curr": 4,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 40,
+          "curr": 30,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 40,
+          "curr": 30,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 127,
+          "curr": 60,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 2,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "udtv": {
+      "short": "удтв",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 3,
+          "curr": 2,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 63,
+          "curr": 43,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 63,
+          "curr": 43,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "mtk": {
+      "short": "МТК",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 16,
+          "curr": 16,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 229,
+          "curr": 265,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 229,
+          "curr": 292,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 19,
+          "curr": 94,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 43,
+          "curr": 31,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "ktm": {
+      "short": "КТМ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 15,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 15,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 50,
+          "curr": 55,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 104,
+          "curr": 62,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "caspi": {
+      "short": "CASPI BITUM",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 13,
+          "curr": 15,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 106,
+          "curr": 169,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 106,
+          "curr": 147,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 22,
+          "curr": 14,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 5,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 4,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 34,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "oms": {
+      "short": "ОМС",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 38,
+          "curr": 48,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 510,
+          "curr": 437,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 430,
+          "curr": 334,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 11,
+          "curr": 10,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kmtf": {
+      "short": "КМТФ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 4,
+          "curr": 4,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 10,
+          "curr": 8,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 2,
+          "curr": 2,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 10,
+          "curr": 2,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 2,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 4,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        }
+      ]
+    },
+    "urikhtau": {
+      "short": "Урихтау",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 17,
+          "curr": 16,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 134,
+          "curr": 84,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 75,
+          "curr": 38,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 23,
+          "curr": 6,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 5,
+          "curr": 4,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 9,
+          "curr": 2,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 8,
+          "curr": 3,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "uog": {
+      "short": "УОГ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 27,
+          "curr": 51,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 258,
+          "curr": 199,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 148,
+          "curr": 132,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "pnhz": {
+      "short": "ПНХЗ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 2003,
+          "curr": 3823,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 2193,
+          "curr": 4524,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 2155,
+          "curr": 4472,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 272,
+          "curr": 644,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 24,
+          "curr": 4,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 44,
+          "curr": 45,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 61,
+          "curr": 216,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 61,
+          "curr": 103,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 4,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "pkop": {
+      "short": "ПКОП",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 18,
+          "curr": 12,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 612,
+          "curr": 195,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 499,
+          "curr": 135,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 198,
+          "curr": 322,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 5,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 31,
+          "curr": 17,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 71,
+          "curr": 38,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 1,
+          "curr": 3,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 48,
+          "curr": 76,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 11,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "osc": {
+      "short": "ОСК",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 6,
+          "curr": 7,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 5661,
+          "curr": 12524,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 5661,
+          "curr": 12518,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 93,
+          "curr": 60,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 3,
+          "curr": 9,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 3,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 2,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 127,
+          "curr": 159,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 2,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 5,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kpi": {
+      "short": "KPI",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 16,
+          "curr": 33,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 59,
+          "curr": 115,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 59,
+          "curr": 101,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 180,
+          "curr": 117,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 4,
+          "curr": 3,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 4,
+          "curr": 3,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 98,
+          "curr": 102,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "koa": {
+      "short": "КОА",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 56,
+          "curr": 51,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 387,
+          "curr": 292,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 366,
+          "curr": 262,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 42,
+          "curr": 84,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 2,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 12,
+          "curr": 15,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 5,
+          "curr": 7,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 1,
+          "curr": 5,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 34,
+          "curr": 36,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "mmg": {
+      "short": "ММГ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 64,
+          "curr": 78,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 757,
+          "curr": 963,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 640,
+          "curr": 706,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 140,
+          "curr": 29,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 2302,
+          "curr": 3641,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kto": {
+      "short": "КТО",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 146,
+          "curr": 360,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 1311,
+          "curr": 1216,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 774,
+          "curr": 945,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 1782,
+          "curr": 890,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 7,
+          "curr": 17,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 17,
+          "curr": 14,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 15,
+          "curr": 21,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 2,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 359,
+          "curr": 318,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 7,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 511,
+          "curr": 698,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 7,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kmgs": {
+      "short": "КМГС",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 5,
+          "curr": 5,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 195,
+          "curr": 173,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 7,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "drilling": {
+      "short": "Дрилинг",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 53,
+          "curr": 62,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 1,
+          "curr": 55,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 0,
+          "curr": 38,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 1559,
+          "curr": 1772,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 55,
+          "curr": 106,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 25,
+          "curr": 358,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 23,
+          "curr": 370,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 296,
+          "curr": 51,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kks": {
+      "short": "ККС",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 4,
+          "curr": 16,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 70,
+          "curr": 145,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 70,
+          "curr": 145,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "mem": {
+      "short": "МЭМ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 33,
+          "curr": 33,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 225,
+          "curr": 190,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 367,
+          "curr": 78,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 35,
+          "curr": 23,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kazgpz": {
+      "short": "КазГПЗ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 41,
+          "curr": 48,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 4281,
+          "curr": 2021,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 1410,
+          "curr": 5901,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 59,
+          "curr": 2,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 19,
+          "curr": 8,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 14,
+          "curr": 11,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 18,
+          "curr": 6,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 94,
+          "curr": 152,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "emg": {
+      "short": "ЭМГ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 15,
+          "curr": 17,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 1323,
+          "curr": 1213,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 566,
+          "curr": 1071,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 2443,
+          "curr": 2317,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 218,
+          "curr": 28,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 394,
+          "curr": 567,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 483,
+          "curr": 348,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 45,
+          "curr": 58,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 823,
+          "curr": 740,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "barlau": {
+      "short": "Барлау",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 0,
+          "curr": 8,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 5,
+          "curr": 9,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 5,
+          "curr": 9,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 1,
+          "curr": 6,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 1,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 1,
+          "curr": 10,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 1,
+          "curr": 2,
+          "worseUp": false
+        }
+      ]
+    },
+    "kmgeng": {
+      "short": "КМГИ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 3,
+          "curr": 5,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 3,
+          "curr": 69,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 1,
+          "curr": 18,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 0,
+          "curr": 7,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 1025,
+          "curr": 2098,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "kgm": {
+      "short": "КГМ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 63,
+          "curr": 52,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 529,
+          "curr": 572,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 487,
+          "curr": 565,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 213,
+          "curr": 74,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 2,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 2,
+          "curr": 1,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 514,
+          "curr": 466,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        }
+      ]
+    },
+    "kbm": {
+      "short": "КБМ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 50,
+          "curr": 50,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 0,
+          "curr": 418,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 0,
+          "curr": 315,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 750,
+          "curr": 794,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 44,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 133,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 172,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 159,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 0,
+          "curr": 4379,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 112,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 1,
+          "curr": 1,
+          "worseUp": false
+        }
+      ]
+    },
+    "omg": {
+      "short": "ОМГ",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 13,
+          "curr": 13,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 489,
+          "curr": 494,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 459,
+          "curr": 387,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 1670,
+          "curr": 668,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 89,
+          "curr": 69,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "okk": {
+      "short": "ОКК",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 3,
+          "curr": 3,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 1,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 36,
+          "curr": 52,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 32,
+          "curr": 17,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 74,
+          "curr": 67,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 21,
+          "curr": 15,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 21,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        }
+      ]
+    },
+    "dunga": {
+      "short": "Дунга",
+      "rows": [
+        {
+          "id": "audits",
+          "label": "Количество проведенных внутренних аудитов/проверок ПДК",
+          "prev": 13,
+          "curr": 15,
+          "worseUp": false
+        },
+        {
+          "id": "indepAudits",
+          "label": "Количество проведенных аудитов независимыми экспертами",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "findings",
+          "label": "Количество выявленных несоответствий",
+          "prev": 566,
+          "curr": 532,
+          "worseUp": true
+        },
+        {
+          "id": "resolved",
+          "label": "Количество устраненных несоответствий",
+          "prev": 555,
+          "curr": 421,
+          "worseUp": false
+        },
+        {
+          "id": "pab",
+          "label": "Количество проведенных ПАБ/ПНБ/ПДБ",
+          "prev": 91,
+          "curr": 77,
+          "worseUp": false
+        },
+        {
+          "id": "nearMiss",
+          "label": "Количество выявленных потенциально-опасных происшествий",
+          "prev": 3,
+          "curr": 0,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeActs",
+          "label": "Количество выявленных опасных действий",
+          "prev": 77,
+          "curr": 125,
+          "worseUp": true
+        },
+        {
+          "id": "unsafeCond",
+          "label": "Количество выявленных  опасных условий",
+          "prev": 86,
+          "curr": 122,
+          "worseUp": true
+        },
+        {
+          "id": "stops",
+          "label": "Количество остановов работы (Временное)",
+          "prev": 16,
+          "curr": 16,
+          "worseUp": true
+        },
+        {
+          "id": "medical",
+          "label": "Количество обращений в медицинские пункты (все виды)",
+          "prev": 275,
+          "curr": 263,
+          "worseUp": true
+        },
+        {
+          "id": "nebosh",
+          "label": "Количество работников, прошедших обучение по курсу NEBOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "iosh",
+          "label": "Количество работников, прошедших обучение по курсу IOSH",
+          "prev": 0,
+          "curr": 0,
+          "worseUp": false
+        },
+        {
+          "id": "defensive",
+          "label": "Кол-во работников прош-х обучение по курсу defensive driving",
+          "prev": 129,
+          "curr": 161,
+          "worseUp": false
+        },
+        {
+          "id": "forums",
+          "label": "Кол-во проведенных Форумов по безопасности и охране труда",
+          "prev": 1,
+          "curr": 1,
+          "worseUp": false
+        }
+      ]
+    }
+  }
+}

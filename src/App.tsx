@@ -15,9 +15,11 @@ import { Audit } from './pages/Audit';
 import { AuditDetail } from './pages/AuditDetail';
 import { Measures } from './pages/Measures';
 import { Policies } from './pages/Policies';
+import { PoliciesReport } from './pages/PoliciesReport';
 import { Opo } from './pages/Opo';
 import { DeclarationDetail } from './pages/DeclarationDetail';
 import { Contractors } from './pages/Contractors';
+import { ContractorDetail } from './pages/ContractorDetail';
 import { Ptw } from './pages/Ptw';
 import { Transport } from './pages/Transport';
 import { Forms } from './pages/Forms';
@@ -37,12 +39,14 @@ export default function App() {
         <Route path="/passport/:group" element={<PassportGroup />} />
         <Route path="/passport/:group/:dzo" element={<PassportDzo />} />
         <Route path="/policies" element={<Policies />} />
+        <Route path="/policies/report" element={<PoliciesReport />} />
         <Route path="/korgau" element={<Korgau />} />
         <Route path="/incidents" element={<Incidents />} />
         <Route path="/incidents/:id" element={<IncidentDetail />} />
         <Route path="/opo" element={<Opo />} />
         <Route path="/opo/declaration/:id" element={<DeclarationDetail />} />
         <Route path="/contractors" element={<Contractors />} />
+        <Route path="/contractors/:id" element={<ContractorDetail />} />
         <Route path="/measures" element={<Measures />} />
         <Route path="/audit" element={<Audit />} />
         <Route path="/audit/:id" element={<AuditDetail />} />

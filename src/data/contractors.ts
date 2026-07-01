@@ -1,4 +1,129 @@
 import type { Lang } from '../i18n';
+import orgsRaw from './contractors_orgs.json';
+
+// Source: KMG-ST-3524.1 register (SDR) + Contractors information by subsidiaries_2025
+
+export interface ContractorOrg {
+  id: number;
+  dir: string | null;
+  dzoShort: string | null;
+  name: string;
+  activity: string | null;
+  ns: number;
+  victims: number;
+  fatal: number;
+  workers: number;
+  wh: number;
+  km: number;
+  dtp: number;
+}
+
+export interface ContractorSummary {
+  year: number;
+  source: string;
+  orgs: number;
+  workers: number;
+  wh: number;
+  ns: number;
+  victims: number;
+  fatal: number;
+}
+
+const orgsData = orgsRaw as { summary: ContractorSummary; orgs: ContractorOrg[] };
+
+export const CONTRACTOR_ORGS = orgsData.orgs;
+export const CONTRACTOR_SUMMARY = orgsData.summary;
+
+/** Map passport / journal DZO full name → short codes in SDR register */
+export const DZO_FULL_TO_SHORT: Record<string, string[]> = {
+  'АО «Озенмунайгаз»': ['ОМГ'],
+  'АО «Каражанбасмунай»': ['Каражанбасмунай'],
+  'АО «Эмбамунайгаз»': ['ЭМГ'],
+  'АО «Мангистаумунайгаз»': ['Мангистаумунайгаз'],
+  'АО «КазТрансОйл»': ['КазТрансОйл'],
+  'ТОО «КазГПЗ»': ['КазГПЗ'],
+  'ТОО «ПетроКазахстан Ойл Продактс»': ['ПКОП'],
+  'ТОО «ПНХЗ»': ['ПНХЗ'],
+  'ТОО «KPI Inc.»': ['KPI'],
+  'ТОО «Атырауский НПЗ»': ['АНПЗ'],
+  'ТОО «Oil Services Company»': ['Oil Service Company'],
+  'ТОО «Oil Transport Corporation»': ['Oil Transport Corporation'],
+  'ТОО «КМГ Инжиниринг»': ['KMГ Инжиниринг'],
+  'ТОО «KMG EP-Catering»': ['KMG EP-Catering'],
+  'ТОО «ОзенМунайСервис»': ['ОзенМунайСервис'],
+  'ТОО «Кен Курылыс Сервис»': ['Кен-Курылыс-Сервис'],
+  'ТОО «KMG-Security»': ['KMG - Security'],
+};
+
+export function normContrName(s: string): string {
+  return s.toLowerCase().replace(/[«»"'«»\s]+/g, '').replace(/тоо|жшс|ип|ник|чу/g, '');
+}
+
+export function findContractorOrg(id: number): ContractorOrg | undefined {
+  return CONTRACTOR_ORGS.find((o) => o.id === id);
+}
+
+export function contractorsForDzoFull(dzoFull: string): ContractorOrg[] {
+  const shorts = DZO_FULL_TO_SHORT[dzoFull] ?? [];
+  if (!shorts.length) {
+    const key = dzoFull.replace(/[«»]/g, '').toLowerCase();
+    return CONTRACTOR_ORGS.filter((o) => o.dzoShort && key.includes(o.dzoShort.toLowerCase().slice(0, 6)));
+  }
+  return CONTRACTOR_ORGS.filter((o) => o.dzoShort && shorts.includes(o.dzoShort));
+}
+
+export function aggregateContractors(list: ContractorOrg[]) {
+  return {
+    orgs: list.length,
+    workers: list.reduce((s, o) => s + o.workers, 0),
+    wh: list.reduce((s, o) => s + o.wh, 0),
+    ns: list.reduce((s, o) => s + o.ns, 0),
+    victims: list.reduce((s, o) => s + o.victims, 0),
+    fatal: list.reduce((s, o) => s + o.fatal, 0),
+    dtp: list.reduce((s, o) => s + o.dtp, 0),
+  };
+}
+
+function countContrDtp(dzoFull: string): number {
+  const shorts = DZO_FULL_TO_SHORT[dzoFull] ?? [];
+  return CONTR_ACCIDENTS_2025.filter(
+    (a) => a.dzo === dzoFull || (shorts.length > 0 && shorts.includes(a.short)),
+  ).filter((a) => a.type.ru === 'ДТП' || a.type.en === 'RTA').length;
+}
+
+/** HSE KPI strip for passport «по подрядным организациям» (2025 contractor register). */
+export function computeContractorKpis(
+  dzoFull: string,
+  companyKpis: { nearMiss: number; workStops: number; nonWorkCoeff: number },
+) {
+  const list = contractorsForDzoFull(dzoFull);
+  const agg = aggregateContractors(list);
+  const far = agg.wh > 0 ? (agg.fatal * 100_000_000) / agg.wh : 0;
+  const ltir = agg.wh > 0 ? (agg.ns * 1_000_000) / agg.wh : 0;
+  const mvcr = agg.dtp > 0 ? agg.dtp : countContrDtp(dzoFull);
+
+  return {
+    workers: agg.workers,
+    far,
+    ltir,
+    mvcr,
+    nonWorkCoeff: companyKpis.nonWorkCoeff,
+    nearMiss: companyKpis.nearMiss,
+    workStops: companyKpis.workStops,
+  };
+}
+
+export function accidentsForContractor(name: string): ContrAccident[] {
+  const n = normContrName(name);
+  return CONTR_ACCIDENTS_2025.filter((a) => {
+    const an = normContrName(a.contractor);
+    return an.includes(n.slice(0, 12)) || n.includes(an.slice(0, 12));
+  });
+}
+
+export function ltirForOrg(o: ContractorOrg): number {
+  return o.wh > 0 ? (o.ns * 1_000_000) / o.wh : 0;
+}
 
 // Source: "Contractors information by subsidiaries_2025" (Statistics_LTIR_2025,
 // Accidents_Contractors_2025) — contractor HSE statistics of the KMG group, 2025.

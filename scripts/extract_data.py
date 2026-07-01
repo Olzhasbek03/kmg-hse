@@ -243,4 +243,224 @@ if os.path.exists(ptw_path):
         json.dump(permits, f, ensure_ascii=False, indent=0)
     print('ptw permits:', len(permits))
 
+# ---------- Process matrix (IRD compliance by business direction) ----------
+STATUS_MAP = {
+    'ВН': 'VN', 'Внедрено': 'VN',
+    'АКТ': 'AKT', 'Актуализировано в 2023-2025гг.': 'AKT',
+    'РАЗ': 'RAZ', 'В разработке': 'RAZ',
+    'НР': 'NR', 'Не разработано': 'NR',
+    'НЕС': 'NES', 'Не соответствует': 'NES',
+    'Н/П': 'NP', 'Не применимо': 'NP',
+    '+': 'PLUS', '−': 'MINUS', '-': 'MINUS',
+    'План 2026': 'PLAN26', 'План 2027': 'PLAN27',
+}
+
+def norm_matrix_status(v):
+    if v is None:
+        return 'EMPTY'
+    s = str(v).strip()
+    return STATUS_MAP.get(s, STATUS_MAP.get(s.upper(), s))
+
+MATRIX_META = {
+    'production': {
+        'label': {'ru': 'Добыча', 'kz': 'Өндіру', 'en': 'Production'},
+        'file': '/policies/matrices/dobycha.xlsx',
+        'xlsx': 'Матрица процессов ПБ_HSE KMG_2026_Добыча.xlsx',
+    },
+    'refining': {
+        'label': {'ru': 'Переработка', 'kz': 'Өңдеу', 'en': 'Refining'},
+        'file': '/policies/matrices/pererabotka.xlsx',
+        'xlsx': 'Матрица процессов ПБ_HSE KMG_2026_Переработка.xlsx',
+    },
+    'transport': {
+        'label': {'ru': 'Транспортировка', 'kz': 'Тасымалдау', 'en': 'Transportation'},
+        'file': '/policies/matrices/transport.xlsx',
+        'xlsx': 'Матрица процессов ПБ_HSE KMG_2026_Транспортировка.xlsx',
+    },
+    'services': {
+        'label': {'ru': 'Сервис', 'kz': 'Сервис', 'en': 'Services'},
+        'file': '/policies/matrices/servis.xlsx',
+        'xlsx': 'Матрица процессов ПБ_HSE KMG_2026_Сервис.xlsx',
+    },
+}
+
+matrix_directions = []
+for key, meta in MATRIX_META.items():
+    path = f'{BASE}/app/{meta["xlsx"]}'
+    if not os.path.exists(path):
+        path = f'{BASE}/{meta["xlsx"]}'
+    if not os.path.exists(path):
+        continue
+    ws = openpyxl.load_workbook(path, data_only=True)['Стратегия СК_ВНД']
+    header_row = next(
+        r for r in range(1, 8)
+        if ws.cell(r, 1).value and 'бизнес-направлению' in str(ws.cell(r, 1).value).lower()
+    )
+    cols = []
+    c = 2
+    while c <= ws.max_column:
+        v = ws.cell(header_row, c).value
+        if v is None:
+            break
+        sv = str(v).strip()
+        if sv.lower().startswith('внедрено') or sv.lower().startswith('актуализ'):
+            break
+        cols.append(sv)
+        c += 1
+    rows = []
+    for r in range(header_row + 1, ws.max_row + 1):
+        name = ws.cell(r, 1).value
+        if not name:
+            continue
+        name = str(name).strip()
+        if 'Стратегией' in name or name.startswith('Отчет'):
+            continue
+        statuses = [norm_matrix_status(ws.cell(r, i + 2).value) for i in range(len(cols))]
+        rows.append({'name': name, 'statuses': statuses})
+    matrix_directions.append({
+        'id': key,
+        'label': meta['label'],
+        'columns': cols,
+        'xlsx': meta['file'],
+        'rows': rows,
+    })
+
+if matrix_directions:
+    with open(f'{OUT}/policiesMatrix.json', 'w', encoding='utf-8') as f:
+        json.dump({'directions': matrix_directions}, f, ensure_ascii=False, indent=2)
+    print('process matrix directions:', len(matrix_directions))
+
+# ---------- Contractor organizations (KMG-ST-3524.1, SDR register) ----------
+contr_wb = openpyxl.load_workbook(f'{BASE}/Contractors information by subsidiaries_2025.xlsx', read_only=True, data_only=True)
+contr_ws = contr_wb["Data of SDR's_Contractors_2025"]
+contr_rows = list(contr_ws.iter_rows(values_only=True))
+
+def contr_num(v):
+    if v is None or v == '-' or v == '':
+        return 0
+    try:
+        return int(float(v))
+    except (TypeError, ValueError):
+        return 0
+
+contractor_orgs = []
+cur_dir = None
+cur_dzo = None
+cid = 0
+for row in contr_rows:
+    if not row or not any(x is not None and x != '' for x in row):
+        continue
+    if row[0] and isinstance(row[0], str) and row[0] in ('Переработка', 'Добыча', 'Транспортировка', 'Сервис'):
+        cur_dir = row[0]
+        continue
+    if row[0] and isinstance(row[0], (int, float)) and row[1] and isinstance(row[1], str) and row[2] is None:
+        cur_dzo = str(row[1]).strip()
+        continue
+    if row[1] and isinstance(row[1], (int, float)) and row[2] and isinstance(row[2], str):
+        cid += 1
+        ns_raw = row[4]
+        contractor_orgs.append({
+            'id': cid,
+            'dir': cur_dir,
+            'dzoShort': cur_dzo,
+            'name': str(row[2]).strip(),
+            'activity': str(row[3]).strip() if row[3] else None,
+            'ns': contr_num(ns_raw) if ns_raw not in (None, '-', '') else 0,
+            'victims': contr_num(row[5]) if row[5] not in (None, '-', '') else 0,
+            'fatal': contr_num(row[6]) if row[6] not in (None, '-', '') else 0,
+            'workers': contr_num(row[7]),
+            'wh': contr_num(row[8]),
+            'km': contr_num(row[9]) if row[9] not in (None, '-', '') else 0,
+            'dtp': contr_num(row[11]) if len(row) > 11 and row[11] not in (None, '-', '') else 0,
+        })
+
+contr_summary = {
+    'year': 2025,
+    'source': 'KMG-ST-3524.1 / Contractors information by subsidiaries_2025',
+    'orgs': len(contractor_orgs),
+    'workers': sum(x['workers'] for x in contractor_orgs),
+    'wh': sum(x['wh'] for x in contractor_orgs),
+    'ns': sum(x['ns'] for x in contractor_orgs),
+    'victims': sum(x['victims'] for x in contractor_orgs),
+    'fatal': sum(x['fatal'] for x in contractor_orgs),
+}
+with open(f'{OUT}/contractors_orgs.json', 'w', encoding='utf-8') as f:
+    json.dump({'summary': contr_summary, 'orgs': contractor_orgs}, f, ensure_ascii=False, indent=0)
+print('contractor orgs:', contr_summary['orgs'], 'workers:', contr_summary['workers'], 'ns:', contr_summary['ns'])
+
+# ---------- Leading indicators (analysis appendix) ----------
+leading_path = f'{BASE}/Копия Приложение Анализ по опежающим индикаторам 4 мес 2025-2026г НК КМГ к исх. письмо по списку_(9526202v1)_.xlsx'
+if os.path.exists(leading_path):
+    lwb = openpyxl.load_workbook(leading_path, read_only=True, data_only=True)
+    lws = lwb['апрель']
+    SKIP_L = {'опережающие индикаторы', 'количество'}
+    KEY_MAP = [
+        ('audits', 'внутренних аудитов'), ('indepAudits', 'независимыми экспертами'),
+        ('findings', 'выявленных несоответствий'), ('resolved', 'устраненных несоответствий'),
+        ('pab', 'ПАБ'), ('nearMiss', 'потенциально-опасных'),
+        ('unsafeActs', 'опасных действий'), ('unsafeCond', 'опасных условий'),
+        ('stops', 'остановов работы'), ('medical', 'медицинские пункты'),
+        ('nebosh', 'NEBOSH'), ('iosh', 'IOSH'), ('defensive', 'defensive driving'),
+        ('forums', 'Форумов'), ('meetings', 'совещаний'),
+    ]
+    WORSE_UP = {'nearMiss', 'unsafeActs', 'unsafeCond', 'stops', 'medical', 'findings'}
+    blocks = []
+    for col in range(1, lws.max_column + 1):
+        dzo = lws.cell(9, col).value
+        if not dzo or not isinstance(dzo, str):
+            continue
+        dzo = dzo.strip()
+        if not dzo or dzo.lower() in SKIP_L:
+            continue
+        prev_col = curr_col = None
+        for c2 in range(col, min(col + 18, lws.max_column + 1)):
+            lbl = lws.cell(10, c2).value
+            if lbl == '4 мес.25':
+                prev_col = c2
+            if lbl == '4 мес.26':
+                curr_col = c2
+        if prev_col and curr_col:
+            blocks.append((dzo, prev_col, curr_col))
+    SHORT_TO_ID = {
+        'АПНЗ': 'anpz', 'АНПЗ': 'anpz', 'ПНХЗ': 'pnhz', 'ПКОП': 'pkop', 'KPI': 'kpi',
+        'КазГПЗ': 'kazgpz', 'КБМ': 'kbm', 'ОМГ': 'omg', 'ЭМГ': 'emg', 'КТО': 'kto',
+        'ОСК': 'osc', 'ОТК': 'otc', 'КМГИ': 'kmgeng', 'Кетеринг': 'catering',
+        'ОМС': 'oms', 'ОКК': 'okk', 'ММГ': 'mmg', 'КазахойлАктобе': 'koa', 'КТМ': 'ktm',
+        'Дунга': 'dunga', 'Урихтау': 'urikhtau', 'Барлау': 'barlau', 'КГМ': 'kgm',
+        'УОГ': 'uog', 'ККС': 'kks', 'МЭМ': 'mem', 'КМГС': 'kmgs', 'удтв': 'udtv',
+        'МТК': 'mtk', 'CASPI BITUM': 'caspi', 'Сaspi Bitum': 'caspi', 'Дрилинг': 'drilling',
+        'КМТФ': 'kmtf',
+    }
+    by_short = {}
+    by_id = {}
+    for dzo, prev_col, curr_col in blocks:
+        rows = []
+        for row in range(11, 26):
+            label = lws.cell(row, 2).value
+            if not label:
+                continue
+            label = str(label).strip()
+            if label.lower() in SKIP_L:
+                continue
+            kid = None
+            for key, frag in KEY_MAP:
+                if frag.lower() in label.lower():
+                    kid = key
+                    break
+            if not kid:
+                kid = re.sub(r'\W+', '_', label[:24]).lower()
+            prev = contr_num(lws.cell(row, prev_col).value)
+            curr = contr_num(lws.cell(row, curr_col).value)
+            rows.append({'id': kid, 'label': label, 'prev': prev, 'curr': curr, 'worseUp': kid in WORSE_UP})
+        by_short[dzo] = rows
+        pid = SHORT_TO_ID.get(dzo, dzo.lower().replace(' ', '_'))
+        by_id[pid] = {'short': dzo, 'rows': rows}
+    with open(f'{OUT}/passportLeading.json', 'w', encoding='utf-8') as f:
+        json.dump({
+            'source': 'Копия Приложение Анализ по опережающим индикаторам 4 мес 2025-2026г',
+            'compareMonths': 4, 'prevYear': 2025, 'currYear': 2026,
+            'byShort': by_short, 'byId': by_id,
+        }, f, ensure_ascii=False, indent=2)
+    print('leading indicators DZO:', len(by_id))
+
 print('DONE')
